@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;border:none;font-family:Helvetica,"Microsoft YaHei";color:#333;}
+a{text-decoration: none;}
+ol,ul,li{list-style: none;}
+
+header{width:100%;height: 36px;position: fixed;top:0;left:0;background-color: cadetblue;color: #fff;text-align: center;line-height: 36px;z-index: 99;}
+footer{width:100%;height: 36px;position: fixed;bottom:0;left:0;background-color: cadetblue;color: #fff;text-align: center;line-height: 36px;z-index: 99;}
+
+html,body{}
+/*主体内容*/
+.main{transform: translate(0px, 0px) scale(1) translateZ(0px);}
+/*ul li*/
+ul{width: 100%;overflow: auto;}
+li{height: 36px;border-bottom: 1px solid #ccc;line-height: 36px;font-size: 16px;padding: 0 10px;}
+/*下拉刷新*/
+.refresh{background-color: #dadada;text-align: center;height: 36px;line-height: 36px;}
+.refresh p:nth-child(2){display: none;}
+.refresh p:nth-child(3){display: none;}
+/*上拉加载*/
+.load{background-color: #dadada;text-align: center;height: 36px;line-height: 36px;}
+.load p:nth-child(2){display: none;}
+.load p:nth-child(3){display: none;}
